@@ -1,3 +1,4 @@
+import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -45,6 +46,14 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+
+  FirebaseAnalytics _analytics = FirebaseAnalytics();
+
+  @override
+  void initState() {
+    super.initState();
+    _analytics.logEvent(name: "my_event");
+  }
 
   void _incrementCounter() {
     setState(() {

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "650470526065",
+    "firebase_url": "https://test1-4b24e.firebaseio.com",
+    "project_id": "test1-4b24e",
+    "storage_bucket": "test1-4b24e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650470526065:android:4ff4b646bcbe64979bdfd0",
+        "android_client_info": {
+          "package_name": "life.lab4.test1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650470526065-u4ti3i762hr97lo5bjst0ba7ksls9r4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnysaBVAk1E1DHCdLxahgmfpI-aPZ-Fww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650470526065-u4ti3i762hr97lo5bjst0ba7ksls9r4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
